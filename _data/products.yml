@@ -1,0 +1,8 @@
+- name: nordicActiva
+  type: software
+
+- name: nordicBrainEx
+  type: software
+
+- name: nordicTumourEx
+  type: software

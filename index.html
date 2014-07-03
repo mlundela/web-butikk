@@ -2,14 +2,10 @@
 layout: default
 ---
 
-<div class="home">
+<h3>Products</h3>
 
-  <h1>Products</h1>
-
-  <ul class="posts">
+<div class="row">
     {% for p in site.data.products %}
-      {{p.name}}
+        <div class="col-md-3">{{p.name}}</div>
     {% endfor %}
-  </ul>
-
 </div>

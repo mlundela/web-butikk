@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<h3>Products</h3>
-
 <div class="row">
     {% for p in site.data.products %}
-        <div class="col-md-3 col-xs-6">
-            {{p.name}}
-            <img src="/assets/{{p.img}}.jpeg" width="100%"/>
+        <div class="col-md-3 col-xs-6" style="height: 400px;">
+            <h2>{{p.name | capitalize }}</h2>
+            <h5>Design <b>{{p.designer}}</b></h5>
+            <hr/>
+            <h4>{{p.name}} {{p.price}}</h4>
+            <p>{{p.about}}</p>
+            <img src="/assets/{{p.img}}.jpeg"/>
         </div>
     {% endfor %}
 </div>

@@ -1,14 +1,29 @@
 - name: Lampe fin
   img: l1
+  price: 149,-
+  designer: Rikke Frost
+  about: Kan stå veldig fint helt på egen hånd.
 
 - name: Annen lampe
   img: l2
+  price: 199,-
+  designer: Says Who
+  about: Slynger seg nedover.
 
 - name: Lampé
   img: l3
+  price: 369,-
+  designer: Houe
+  about: Står på gulvet og bøyer seg fint til høyre.
 
 - name: Lampé 4
   img: l4
+  price: 499,-
+  designer: Charlotte Høncke
+  about: Venstrevridd type.
 
 - name: Lampé 5
   img: l5
+  price: 129,-
+  designer: Bertil Stam
+  about: Spinkel variant. Ligner litt på en sebra igrunn.

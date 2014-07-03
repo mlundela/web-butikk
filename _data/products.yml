@@ -1,8 +1,14 @@
-- name: nordicActiva
-  type: software
+- name: Lampe fin
+  img: l1
 
-- name: nordicBrainEx
-  type: software
+- name: Annen lampe
+  img: l2
 
-- name: nordicTumourEx
-  type: software
+- name: Lampé
+  img: l3
+
+- name: Lampé 4
+  img: l4
+
+- name: Lampé 5
+  img: l5

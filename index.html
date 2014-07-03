@@ -6,6 +6,9 @@ layout: default
 
 <div class="row">
     {% for p in site.data.products %}
-        <div class="col-md-3">{{p.name}}</div>
+        <div class="col-md-3 col-xs-6">
+            {{p.name}}
+            <img src="/assets/{{p.img}}.jpeg" width="100%"/>
+        </div>
     {% endfor %}
 </div>
